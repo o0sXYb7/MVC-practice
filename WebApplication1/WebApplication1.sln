@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{6BECABD5-FAC6-4DE1-9EE6-65F02CDDCA89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{6BECABD5-FAC6-4DE1-9EE6-65F02CDDCA89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "後端傳資料到前端", "後端傳資料到前端\後端傳資料到前端.csproj", "{AA31A067-777B-4FC8-A00E-7E7077837EF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6BECABD5-FAC6-4DE1-9EE6-65F02CDDCA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BECABD5-FAC6-4DE1-9EE6-65F02CDDCA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BECABD5-FAC6-4DE1-9EE6-65F02CDDCA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA31A067-777B-4FC8-A00E-7E7077837EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA31A067-777B-4FC8-A00E-7E7077837EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA31A067-777B-4FC8-A00E-7E7077837EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA31A067-777B-4FC8-A00E-7E7077837EF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

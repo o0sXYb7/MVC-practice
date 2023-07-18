@@ -1,9 +1,17 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 
+    //第一個ViewBag傳送物件
     var date = ViewBag.Date;
+    //----------------------
+
+    //第二個ViewBag傳送物件
     var student = ViewBag.Student;
+    //----------------------
+
+    //第三個ViewBag傳送物件
     var list = ViewBag.List;
+    //----------------------
 }
 
 <style>
@@ -13,20 +21,29 @@
     }
 </style>
 
+@*第一個ViewBag傳送物件*@
 <div>
     現在時間: @date.ToString("yyyy/MM/dd HH:mm:ss") 
 </div>
+@*----------------------------*@
 
+
+@*第二個ViewBag傳送物件*@
 <div>
     學生成績: @student.ToString()
 </div>
+@*----------------------------*@
 
+
+@*第三個ViewBag傳送物件*@
 <div>
     學生成績列表:
 </div>
+@*通過迴圈來列出資料*@
 @for (int i = 0; i < list.Count; i++)
 {
     <div>
         @list[i].ToString()
     </div>
 }
+@*----------------------------*@

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\後端傳資料到前端.props" />
+</Project>
